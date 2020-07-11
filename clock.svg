@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-1136 -1136 2272 2272" width="600" height="600"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- MIT license by Tom CHEN. Inspired by https://commons.wikimedia.org/wiki/File:Swiss_railway_clock_1.svg -->
+  <title>Clock</title>
+  <style type="text/css">
+    .b1 {fill: #fff; stroke: #d3d3d3; stroke-width: 64;}
+    .c1 {fill: #fff;  stroke: none;}
+    .c2 {fill: #000; stroke: none;}
+    .c3 {fill: #bd2420; stroke: none;}
+  </style>
+  <defs>
+    <path id="mark1" d="M -40,-1000 l 80,0 0,245 -80,0 z" />
+    <path id="mark2" d="M -15,-1000 l 30,0 0,80  -30,0 z" />
+    <path id="handh" d="M -50,-650  l 100,0 10,890 -120,0 z" />
+    <path id="handm" d="M -40,-950  l 80,0 10,1200 -100,0 z" />
+    <g id="hands">
+      <path d="M -20,-550 l 30,0
+                     7,890 -30,0 z" />
+      <path d="M   0,-750 a 105,105 0 0 1 0,210
+                          a 105,105 0 0 1 0,-210 z" />
+    </g>
+    <g id="face1">
+      <use xlink:href="#mark1" />
+      <use xlink:href="#mark2" transform="rotate(06)" />
+      <use xlink:href="#mark2" transform="rotate(12)" />
+      <use xlink:href="#mark2" transform="rotate(18)" />
+      <use xlink:href="#mark2" transform="rotate(24)" />
+    </g>
+    <g id="face2">
+      <use xlink:href="#face1" />
+      <use xlink:href="#face1" transform="rotate(30)" />
+      <use xlink:href="#face1" transform="rotate(60)" />
+    </g>
+    <g id="face">
+      <use xlink:href="#face2" />
+      <use xlink:href="#face2" transform="rotate(90)" />
+      <use xlink:href="#face2" transform="rotate(180)" />
+      <use xlink:href="#face2" transform="rotate(270)" />
+    </g>
+  </defs>
+  <circle class="b1" r="1104" />
+  <use xlink:href="#face" class="c2" />
+  <use xlink:href="#handh" class="c2" id="hhand">
+    <animateTransform id="hhand-anim" attributeName="transform" type="rotate" attributeType="XML"
+    begin      ="0s"
+    dur        ="43200s"
+    values     ="0; 360"
+    keyTimes   ="0; 1" repeatCount="indefinite" />
+  </use>
+  <use xlink:href="#handm" class="c2" id="mhand">
+    <animateTransform id="mhand-anim" attributeName="transform" type="rotate" attributeType="XML"
+    begin      ="0s"
+    dur        ="3600s"
+    values     ="0; 360"
+    keyTimes   ="0; 1" repeatCount="indefinite" />
+  </use>
+  <use xlink:href="#hands" class="c3" id="shand">
+    <animateTransform id="shand-anim" attributeName="transform" type="rotate" attributeType="XML"
+    begin      ="0s"
+    dur        ="60s"
+    values     ="0; 360"
+    keyTimes   ="0; 1" repeatCount="indefinite" />
+  </use>
+  <circle class="c1" r="5" />
+  <script type="text/javascript">
+  function setTime(h, m, s) {
+    document.getElementById("handh").setAttribute("transform", "rotate(" + ((h >= 12 ? h - 12 : h) * 30 + m / 2 + s / 120) + ")");
+    document.getElementById("handm").setAttribute("transform", "rotate(" + (m * 6 + s / 10) + ")");
+    document.getElementById("hands").setAttribute("transform", "rotate(" + (s * 6) + ")");
+  }
+  var date = new Date();
+  setTime(date.getHours(), date.getMinutes(), date.getSeconds());
+  </script>
+</svg>
