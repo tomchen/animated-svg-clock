@@ -26,7 +26,7 @@ Use it (HTML, with width and height set):
 
 ## Design
 
-Yes it's highly similar to a [Swiss railway clock](https://en.wikipedia.org/wiki/Swiss_railway_clock) whose design [**IS COPYRIGHTED**](https://www.businessinsider.fr/us/apple-paid-21-million-for-swiss-railways-clock-2012-11).
+Yes it's highly similar to a [Swiss railway clock](https://en.wikipedia.org/wiki/Swiss_railway_clock) whose design [IS COPYRIGHTED](https://www.businessinsider.fr/us/apple-paid-21-million-for-swiss-railways-clock-2012-11).
 
 ## Credits
 
@@ -38,4 +38,4 @@ Inspired by SVG animation: by HackaLittleBit (https://commons.wikimedia.org/wiki
 
 ## License
 
-MIT license for the code, but Swiss railway clock **design is copyrighted**.
+MIT license for the code, but Swiss railway clock **DESIGN IS COPYRIGHTED**.
