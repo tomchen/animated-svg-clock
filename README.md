@@ -1,4 +1,6 @@
-# SVG clock
+<h1 align="center">
+SVG clock
+</h1>
 
 <p align="center">
 <img src="https://github.com/tomchen/svg-clock/raw/master/clock.svg" alt="Clock" title="Clock">
