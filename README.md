@@ -1,6 +1,6 @@
 # SVG clock
 
-[![SVG clock](clock.svg)](https://raw.githubusercontent.com/tomchen/svg-clock/master/clock.svg)
+![SVG clock](clock.svg "Clock")
 
 ## Technical details
 
@@ -10,7 +10,7 @@ Use JavaScript to set the current time
 
 ## GitHub usage
 
-GitHub sanitizes JavaScript but keeps SMIL-based animation in SVG, therefore, **what you see on GitHub README.md page is an animated clock starting from 00:00**. If you open [the SVG file](https://raw.githubusercontent.com/tomchen/svg-clock/master/clock.svg) directly in your browser, the animated clock should start from the current time.
+GitHub sanitizes JavaScript but keeps SMIL-based animation in SVG, therefore, **what you see on GitHub README.md page is an animated clock starting from 00:00**. GitHub has strict rule that other websites (such as Wikipedia) do not have: even if you open the GitHub-hosted raw SVG file directly in your browser, the JavaScript code in the SVG will not be executed. In order to execute the JavaScript code, you can download the SVG file then open it directly in your browser, the animated clock should start from the current time.
 
 Use it (Markdown, can't set width and height):
 
