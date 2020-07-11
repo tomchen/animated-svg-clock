@@ -1,6 +1,8 @@
 # SVG clock
 
-![SVG clock](clock.svg "Clock")
+<p align="center">
+<img src="https://github.com/tomchen/svg-clock/raw/master/clock.svg" alt="Clock" title="Clock">
+</p>
 
 ## Technical details
 
