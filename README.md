@@ -1,5 +1,5 @@
 <h1 align="center">
-SVG clock
+Animated SVG clock
 </h1>
 
 <p align="center">
