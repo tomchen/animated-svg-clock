@@ -3,24 +3,23 @@ Animated SVG clock
 </h1>
 
 <p align="center">
-<img src="https://github.com/tomchen/svg-clock/raw/master/clock.svg" alt="Clock" title="Clock">
+<a href="https://tomchen.github.io/animated-svg-clock/clock.svg" title="Click to view the Clock with current time set"><img src="https://github.com/tomchen/svg-clock/raw/master/clock.svg" alt="Clock"></a>
 </p>
 
 ## Technical details
 
-SMIL-based animation
-
-Use JavaScript to set the current time
+* SMIL-based animation
+* Use JavaScript to set the current time
 
 ## GitHub usage
 
 JavaScript code of an SVG in `<img>` will not be executed, the [SMIL](https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL) or CSS-based animation is fine, therefore, **what you see on GitHub README.md page is an animated clock starting from 00:00**, it basically counts the time you stayed on the page.
 
-Even if you open the GitHub-hosted raw SVG file directly in your browser, the JavaScript code will still not be executed due to "[Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP): sandbox" header.
+Even if you open the GitHub.com-hosted (not GitHub.io) raw SVG file directly in your browser, the JavaScript code will still not be executed due to "[Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP): sandbox" header.
 
 In order to execute the JavaScript code, you can download the SVG file, then open it directly in your browser, the animated clock should start from the current time.
 
-It should also work if you embed it directly (not via `<img>`) in your website or any website that does not have strict Content Security Policy header and does not sanitize custom JavaScript code.
+It should also work if you embed it directly (not via `<img>`) in your website, in USERNAME.github.io or any website that does not have strict Content Security Policy header and does not sanitize custom JavaScript code in SVG.
 
 Use it (Markdown, can't set width and height):
 
