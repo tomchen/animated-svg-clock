@@ -3,13 +3,14 @@ Animated SVG clock
 </h1>
 
 <p align="center">
-<a href="https://tomchen.github.io/animated-svg-clock/clock.svg" title="Click to view the Clock with current time set"><img src="https://github.com/tomchen/svg-clock/raw/master/clock.svg" alt="Clock"></a>
+<a href="https://tomchen.github.io/animated-svg-clock/clock.svg" title="Click to view the Clock with current time set"><img src="https://github.com/tomchen/animated-svg-clock/raw/master/clock.svg" alt="Clock"></a>
 </p>
 
 ## Technical details
 
-* SMIL-based animation
+* CSS-based animation
 * Use JavaScript to set the current time
+* [![W3C Validation](https://img.shields.io/w3c-validation/default?label=W3C%20SVG%201.1&preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&targetUrl=https%3A%2F%2Fvalidator.w3.org%2F)](https://validator.w3.org/check?uri=https%3A%2F%2Fraw.githubusercontent.com%2Ftomchen%2Fanimated-svg-clock%2Fmaster%2Fclock.svg&charset=%28detect+automatically%29&doctype=Inline&group=0)
 
 ## GitHub usage
 
@@ -44,6 +45,10 @@ By Tom Chen
 Inspired by SVG animation: by HackaLittleBit (https://commons.wikimedia.org/wiki/File:Swiss_railway_clock_1.svg), CC-by-sa 4.0, whose original SVG is: by Jahoe (https://commons.wikimedia.org/wiki/File:Swiss_railway_clock.svg), CC-by-sa 3.0 & GFDL
 
 (The current SVG code has significate code change comparing to HackaLittleBit's work, and is using the permissive MIT license)
+
+## To do
+
+* [ ] Redesign, not using Swiss railway clock
 
 ## License
 
