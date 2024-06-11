@@ -43,6 +43,22 @@ Use it (HTML, with width and height set):
 
 Yes it's highly similar to a [Swiss railway clock](https://en.wikipedia.org/wiki/Swiss_railway_clock) whose design [IS COPYRIGHTED](https://www.businessinsider.fr/us/apple-paid-21-million-for-swiss-railways-clock-2012-11).
 
+## Vue3 version
+
+Copy the `AnimatedClock.vue`to your Vue components folder.
+
+And include it in your Vue application somewhere with the following code:
+
+```vue
+<script setup>
+import AnimatedClock from "@/components/AnimatedClock.vue";
+</script>
+<template>
+  <AnimatedClock />
+</template>
+```
+
+
 ## Credits
 
 By Tom Chen
