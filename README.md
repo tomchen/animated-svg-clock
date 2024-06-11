@@ -47,7 +47,7 @@ Yes it's highly similar to a [Swiss railway clock](https://en.wikipedia.org/wiki
 
 Copy the `AnimatedClock.vue`to your vue components folder.
 
-And include it in your Vue application somwhere with the following code:
+And include it in your Vue application somewhere with the following code:
 
 ```vue
 <script setup>
