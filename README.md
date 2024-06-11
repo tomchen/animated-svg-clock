@@ -49,7 +49,7 @@ Copy the `AnimatedClock.vue`to your vue components folder.
 
 And include it in your Vue application somwhere with the following code:
 
-```vuejs
+```vue
 <script setup>
 import AnimatedClock from "@/components/AnimatedClock.vue";
 </script>
